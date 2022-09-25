@@ -12,10 +12,14 @@
     "module": "ESNext",
     "moduleResolution": "Node",
     "resolveJsonModule": true,
-    "isolatedModules": true,
-    "noEmit": true,
+    "isolatedModules": false,
+    "emitDeclarationOnly": true,
+    "declaration": true,
+    "declarationMap": true,
+    "declarationDir": "./types",
     "jsx": "react-jsx"
   },
   "include": ["src"],
+  "exclude": ["src/experimental", "src/stories"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

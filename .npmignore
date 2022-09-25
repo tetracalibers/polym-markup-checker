@@ -1,0 +1,30 @@
+## the src folder
+src
+.storybook
+storybook-static
+script
+
+## node modules folder
+node_modules
+
+## incase you have a git repositiory initiated
+.git
+.gitignore
+vite.config.ts
+yarn.lock
+tsconfig.json
+tsconfig.node.json
+.prettierrc.yml
+.eslintrc.yml
+CVS
+.svn
+.hg
+.lock-wscript
+.wafpickle-N
+.DS_Store
+npm-debug.log
+.npmrc
+
+config.gypi
+package-lock.json
+*.log

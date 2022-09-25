@@ -1,3 +1,8 @@
+# memo
+*.txt
+experimental
+storybook-static
+
 # Logs
 logs
 *.log
@@ -11,6 +16,7 @@ node_modules
 dist
 dist-ssr
 *.local
+types
 
 # Editor directories and files
 .vscode/*
