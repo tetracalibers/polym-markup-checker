@@ -2,6 +2,7 @@
 *.txt
 experimental
 storybook-static
+tmp
 
 # Logs
 logs
